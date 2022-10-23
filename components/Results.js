@@ -1,5 +1,9 @@
 import Thumbnail from "./Thumbnail";
 import FlipMove from "react-flip-move";
+//react-flip-move {explained}
+//This module was built to tackle the common but arduous problem of animating a list of items when the list's order changes.
+//CSS transitions only work for CSS properties. If your list is shuffled, the items have rearranged themselves, but without the use of CSS. The DOM nodes don't know that their on-screen location has changed; from their perspective, they've been removed and inserted elsewhere in the document.
+
 
 function Results({ results }) {
   return (
